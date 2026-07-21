@@ -1,0 +1,9 @@
+# grpcpoke methods file: one full gRPC method path per line.
+# Blank lines and lines starting with '#' are ignored.
+# Format:  /<package>.<Service>/<Method>
+#
+# Used by:
+#   list-methods --methods THIS_FILE
+#   call ... --rpc <ShortName> --methods THIS_FILE   (resolves a short RPC name)
+/example.v1.Greeter/SayHello
+/example.v1.Greeter/SayGoodbye

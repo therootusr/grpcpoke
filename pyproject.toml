@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "grpcpoke"
+version = "0.1.0"
+description = "mTLS/plaintext gRPC send-observe-replay harness"
+requires-python = ">=3.8"
+dependencies = ["grpcio>=1.48", "protobuf>=3.20"]
+
+[project.scripts]
+grpcpoke = "grpc_poke.cli:main"
+
+[tool.setuptools]
+packages = ["grpc_poke"]

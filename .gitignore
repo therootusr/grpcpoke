@@ -1,0 +1,11 @@
+.venv/
+venv/
+dist/
+build/
+*.egg-info/
+__pycache__/
+*.pyc
+casebook/
+
+# Compiled descriptor set — supplied out of band, not part of the bundle.
+*.protoset
